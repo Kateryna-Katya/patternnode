@@ -63,3 +63,43 @@ height: 823px;
     padding-bottom: 64px;
 }
 }
+/* Rules */
+.rules-section{
+    background-image: url("/img/rules/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 140px center;
+    background-size: 375px 437px;
+}
+.rules-list{
+    margin-top: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.rules-item{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+}
+.rules-item-title{
+font-family: "Bodoni Moda", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #94877c;
+    margin-bottom: 8px;
+}
+@media only screen and (min-width: 1440px) {
+.rules-section {
+        background-image: url("/img/rules/desk.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 1280px 706px;
+height: 940px;
+    }
+
+    .rules-list {
+        margin-top: 114px;
+        gap: 26px;
+    }
+}
