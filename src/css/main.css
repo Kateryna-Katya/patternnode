@@ -30,3 +30,36 @@ height: 823px;
     margin-top: 49px;
 }    
 }
+/* About the Game */
+.desk{
+    display: none;
+}
+.about-section{
+    background-image: url("/img/about/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 140px center;
+    background-size: 335px 154px;
+}
+.about-section h2{
+    margin-bottom: 190px;
+}
+@media only screen and (min-width: 1440px) {
+ .desk{
+    display: block;
+}
+.about-section{
+    background-image: url("/img/about/desk.png");
+    background-repeat: no-repeat;
+    background-position: bottom 0 left;
+    background-size: 1360px 261px;
+}
+.about-section h2{
+    margin-bottom: 28px;
+}
+.about-section p{
+    text-align: center;
+}
+.about-container{
+    padding-bottom: 64px;
+}
+}
