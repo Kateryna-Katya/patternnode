@@ -103,3 +103,174 @@ height: 940px;
         gap: 26px;
     }
 }
+/* Features */
+.features-section{
+    background-image: url("/img/features/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 140px center;
+    background-size: 375px 540px;
+}
+.features-container{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.features-list{
+    margin-top: 584px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.features-item{
+border: 1px dashed #94877c;
+    padding: 12px;
+    width: 336px;
+    height: 394px;
+}
+.features-item-wrapper{
+border: 3px dashed #f4eee8;
+    padding: 12px 10px;
+    width: 305px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features-item-title{
+    margin-top: 12px;
+    margin-bottom: 8px;
+font-family: "Bodoni Moda", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #c9a46c;
+}
+.features-item-text{
+    text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.features-section{
+    background-image: url("/img/features/desk.png"), url("/img/features/back.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 240px center, top 150px left;
+    background-size: 509px 732px, 100% 823px;
+ height: 1166px;   
+}
+.features-container{
+    position: relative;
+    padding-bottom: 150px;
+        padding-left: 80px;
+            padding-right: 80px;
+}
+.features-list{
+
+    margin-top: 0;
+    flex-direction: row;
+
+height: 790px;
+
+}
+.features-item{
+width: 329px;
+} 
+.f1{
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    transform: rotate(-11deg);
+order: 1;
+z-index: 1;
+}
+.f2{
+    position: absolute;
+    top:15%;
+    right: 10%;
+    transform: rotate(16deg);
+    order: 2;
+    z-index: 1;
+}
+.f3{
+    position: absolute;
+order: 4;
+z-index: 2;
+right: 14%;
+bottom: 16%;
+transform: rotate(-8deg);
+}
+.f4{
+    position: absolute;
+order: 3;
+z-index: 2;
+bottom: 19%;
+left: 16%;
+transform: rotate(4deg);
+}
+}
+/* faq */
+.faq-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.faq-item{
+border-bottom: 1px solid #c9a46c;
+    padding: 0px 0px 14px;
+    width: 335px;
+}
+.faq-item-wrapper{
+    display: flex;
+justify-content: space-between;
+align-items: start;
+margin-bottom: 16px;
+}
+.faq-item-title{
+font-family: "Bodoni Moda", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #c9a46c;
+}
+@media only screen and (min-width: 1440px) {
+.faq-section{
+    background-image: url("/img/faq/desk.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.faq-container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+.faq-list{
+    gap: 28px;
+}
+.faq-item{
+width: 630px;
+}
+.faq-item-wrapper{
+margin-bottom: 10px;
+} 
+}
+/* Contact */
+.contact-container{
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-link{
+font-family: "Bodoni Moda", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #94877c;
+    margin-top: 16px;
+}
+@media only screen and (min-width: 1440px) {
+.contact-container{
+    padding-bottom: 150px;
+}    
+}
