@@ -34,7 +34,7 @@ height: 823px;
 .desk{
     display: none;
 }
-.about-section{
+.about-container{
     background-image: url("/img/about/mob.png");
     background-repeat: no-repeat;
     background-position: top 140px center;
@@ -47,7 +47,7 @@ height: 823px;
  .desk{
     display: block;
 }
-.about-section{
+.about-container{
     background-image: url("/img/about/desk.png");
     background-repeat: no-repeat;
     background-position: bottom 0 left;
